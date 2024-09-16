@@ -1,0 +1,36 @@
+body {
+    background-color: salmon;
+}
+h1 {
+    background-color: salmon;
+    color: white;
+}
+img {
+    height: 200px;
+}
+.home-console {
+    color: black;
+}
+.hand-held {
+    color: grey;
+}
+#hybrid {
+    color:lightblue
+}
+.header p {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+.header p:hover {
+    animation-name: color-change;
+    animation-duration: 2s;
+}
+@keyframes color-change {
+    from {color: red;}
+    to {color: skyblue;}
+}
+.main {
+    text-align: center;
+}
